@@ -1,0 +1,13 @@
+#lista{
+    list-style: none;
+    width: 500px;
+    margin: auto;
+}
+.jumbotron{
+    background-color: rgb(85, 223, 191);
+    border:2px solid rgb(143, 180, 143) ;
+}
+span{
+    color: red;
+    font-weight: bolder;
+}

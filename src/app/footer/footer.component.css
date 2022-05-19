@@ -1,0 +1,26 @@
+
+footer.footer {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
+  footer.footer .social-link {
+    display: block;
+    text-decoration: none;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4.3rem;
+    font-size: 1.5rem;
+    background-color: #b32f18;
+    transition: background-color 0.15s ease-in-out;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  }
+  footer.footer .social-link:hover {
+    background-color: #f75d04;
+    text-decoration: none;
+  }
+  #foot {
+    font-family:'Libre Barcode 128 Text' ;
+     font-size: xx-large;
+     
+  }
+  

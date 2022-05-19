@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angularFinal';
-}
+
+  title = 'Angular Proyect';
+
+  public colores: string[]=['rgb(106, 162, 97)','rgb(06, 62, 57)','rgb(60, 12, 75)','rgb(1, 162, 97)']
+  
+  }
+  
+
+
