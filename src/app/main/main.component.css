@@ -1,3 +1,9 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
 #banner, #callout{
     width: 100%;
     /* height: 55vh; */
@@ -5,17 +11,11 @@
     text-align: center;
 }
 
-img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
 div{
           
     width: 100%;
     height: 100%;
-    background-color: rgba(78, 56, 175, 0.883); 
+    /* background-color: rgba(78, 56, 175, 0.883);  */
     font-size: 50px;
     text-align: center;       
 }
@@ -38,15 +38,22 @@ p{
  font-size: 0.5em;
  font-weight: bold;
 }  
-    
+ 
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 20px;
+    border-radius: 15px;
+}
   
 #foto {
         
-     width: 240px;
-    border-radius: 50%;
-    position:relative;
+    width: 240px;
+   
+    /* position:relative;
     top: 0;
-    left: 0;
+    left: 0; */
     margin: auto;   
         
 }
