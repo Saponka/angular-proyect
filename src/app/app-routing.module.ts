@@ -1,5 +1,6 @@
-import {NgModule  } from "@angular/core";
+import { NgModule  } from "@angular/core";
 import { Routes,RouterModule } from "@angular/router";
+
 import { FormComponent } from "./form/form.component";
 import { MainComponent } from "./main/main.component";
 import { ProductosComponent } from "./pagina/productos/productos.component";
@@ -13,7 +14,6 @@ const routes: Routes=[
     {path:'productos',component:ProductosComponent},
     {path:'**',pathMatch:'full',redirectTo:'404'}
 ]
-
 
 
 //decorador
